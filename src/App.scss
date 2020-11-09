@@ -38,8 +38,12 @@
   left: 15%;
   top: 40%;
   background-color: darkcyan;
+  display: none;
 }
 .category {
   left: 23%;
   background-color: darkred;
+}
+.col-auto:hover > .buy {
+  display: block;
 }

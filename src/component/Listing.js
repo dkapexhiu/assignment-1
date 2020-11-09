@@ -1,9 +1,7 @@
 import React, { Component } from "react";
 import axios from "axios";
-/* import $ from "jquery"; */
 import "bootstrap/dist/js/bootstrap.bundle";
 import Moment from "moment";
-import AnsModal from "./ansModal";
 import InfiniteScroll from "react-infinite-scroller";
 class QuesListing extends Component {
   constructor(props) {
@@ -118,7 +116,6 @@ class QuesListing extends Component {
             </InfiniteScroll>
           </div>
         )}
-        <AnsModal question={this.state.question} />
       </React.Fragment>
     );
   }

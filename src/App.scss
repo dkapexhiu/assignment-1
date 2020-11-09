@@ -1,0 +1,45 @@
+.question {
+  cursor: pointer;
+  &:hover {
+    transform: translateY(-2px);
+    transition: all 0.3s;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  }
+}
+.answer-body {
+  img {
+    display: block;
+    max-width: 100%;
+  }
+}
+.container > div {
+  display: grid;
+    margin: 0 auto;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-auto-rows: minmax(150px, auto);
+    grid-gap: 48px;
+    max-width: 1140px;
+}
+.form-row {
+  display: block;
+}
+.img-fluid {
+  max-width: 128px!important;
+}
+.buttons {
+  position: absolute;
+  color: #fff;
+  border: 0;
+}
+.col-auto{
+  position: relative;
+}
+.buy{
+  left: 15%;
+  top: 40%;
+  background-color: darkcyan;
+}
+.category {
+  left: 23%;
+  background-color: darkred;
+}
